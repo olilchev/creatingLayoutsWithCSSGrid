@@ -5,7 +5,9 @@
 body {
     display:grid;
     grid-template-columns: 15em auto 15em;
-    grid-template-rows: min-content auto min-content
+    grid-template-rows: min-content auto min-content;
+    row-gap: 1em;
+    column-gap: 1em;
 }
 
 header, footer {
