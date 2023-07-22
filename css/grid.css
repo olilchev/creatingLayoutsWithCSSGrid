@@ -2,7 +2,7 @@ body {
     margin: 1em;
     display: grid;
     grid-template-columns: auto-flow min-content;
-    grid-template-rows: reapet(12, 1fr);
+    grid-template-rows: reapeat(12, 1fr);
     grid-gap: 1em;
 }
 
