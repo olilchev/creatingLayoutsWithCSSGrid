@@ -1,8 +1,8 @@
 body {
     margin: 1em;
     display: grid;
-    grid-template-columns: auto-flow min-content;
-    grid-template-rows: reapeat(12, 1fr);
+    grid-template-rows: auto-flow min-content;
+    grid-template-columns: reapeat(12, 1fr) ;
     grid-gap: 1em;
 }
 
@@ -25,6 +25,11 @@ main {
     grid-row-end: 4;
 }
 
+#container {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    
+}
 #pie1,
 #pie5 {
     grid-column-start: 1;
@@ -37,14 +42,15 @@ main {
     grid-column-end: 7;
 }
 
-#pie3,
+/* #pie3, */
 #pie7 {
     grid-column-start: 7;
     grid-column-end: 10;
+    
 }
 
-#pie4,
-#pie8 {
+#pie4
+ {
     grid-column-start: 10;
     grid-column-end: 13;
 }
